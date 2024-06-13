@@ -17,7 +17,7 @@ for file in files:
         path1 = path[:-3]+'html'
         sp.call('cp %s %s' %(path, path1), shell=True)
         file_info = os.path.getctime(path)
-        date = time.ctime(file_info)
+        date = file_info
         aa.append([date, path1])
 
 # connect font file
@@ -36,7 +36,7 @@ for date, path in sorted(aa, reverse=True):
     print('''
     <div class="blogdate"> &#x2022; %s</div>
     <div class="blogtext" width=70%%>
-    ''' %(date), file=ff)
+    ''' %(time.ctime(date)), file=ff)
 
     with open(path, 'r') as r:
         for line in r.readlines()[1:]:
