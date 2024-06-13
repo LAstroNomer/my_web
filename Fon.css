@@ -37,8 +37,19 @@ text-align: center;
 
 .blogtext{
    color: #FFFFFF;
-   text-align: justify;
+   text-align: left;
    margin-left:  20%;
+   margin-top: 10;
+   font-size: 24;
+}
+
+
+.blogdate{
+   color: #FFFFFF;
+   text-align: left;
+   font-style: italic;
+   font-size: 24;
+   margin-left: 10%;
    margin-right: 20%;
    margin-top: 10;
    font-size: 24;
@@ -89,7 +100,7 @@ background: #8000FF;
 text-align: center;
 clear:both;
 height: 30;
-border: border-top: 1;;
+border: 1;
 }
 
 #down{
