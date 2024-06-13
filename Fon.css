@@ -1,0 +1,91 @@
+ *{
+    margin: 0;
+    padding: 0;
+   }
+
+
+body {
+background: #0080FF;
+}
+
+
+.one {
+background: black;
+color: white;
+font-size: 25;
+}
+
+
+.two {
+color: white;
+background: black;
+text-align: center;
+}
+
+
+.three{
+color: white;
+text-align: center;
+ background: #0080C0;
+}
+
+.wtext{
+   color: white;
+   text-align: left;
+    background: #0080C0;
+   }
+
+#txt{
+text-align: center;
+color: white;
+font-size: 20;
+}
+
+#text{
+margin-top: 1 ;
+margin-left: 130;
+margin-right: 200;
+font-size: 24;
+text-align: justify;
+color: white;
+}
+
+#ctext{
+   margin-top: 1 ;
+   margin-left: 130;
+   margin-right: 200;
+   font-size: 24;
+   text-align: center;
+   color: white;
+   }
+
+#reck{
+margin-top: -130;
+float:left;
+width: 120 px;
+margin-right: 10 px;
+}
+
+#pog{
+ width: 150 px;
+margin-left: 10 px;
+ float:right;
+}
+
+#verx{
+color: white;
+background: #8000FF;
+text-align: center;
+clear:both;
+height: 30;
+border: border-top: 1;;
+}
+
+#down{
+ clear:both;
+color: black;
+background: #FF80C0;
+text-align: center;
+}
+
+

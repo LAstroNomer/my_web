@@ -1,0 +1,77 @@
+	<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Fon.css" />
+<script type="text/javascript">
+function startTime()
+{
+var tm=new Date();
+var h=tm.getHours();
+var m=tm.getMinutes();
+var s=tm.getSeconds();
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+}
+function checkTime(i)
+{
+if (i<10)
+{
+i="0" + i;
+}
+return i;
+}
+</script>
+
+</head>
+
+<body
+onload="startTime()"
+link="white" vlink="yellow" alink="red" bgcolor="black">
+
+ <table  width="100%"  bgcolor="black" >
+ <tr>
+ <td class="one"><a href="index.html"><img src="img/6.jpg" width="200" height="115" alt="" /></a></td>
+ <th class="one">LAstroNomer</th>
+ <tr>
+ <td >/ </td>
+ <td>/ </td>
+ <td >/</td>
+ </tr>
+ </tr>
+ </table>
+
+ <table  width="100%"  bgcolor="#FFFF80">
+ <tr>
+
+  <td class="two"><a href="Biografiya.html">Биография</a>  </td>
+  <td class="two"><a href="Ycheba.html"> Учеба</a>  </td>
+   <td class="two" ><a href="Xobbi.html"> Хобби</a> </td>
+   <td class="two"><a href="Photo.htm"> Фото</a></td>
+   <td class="two"><a href="PSs.html"> Полезные ссылки</a></td>
+ </tr>
+ </table>
+ <div  id="pog" >
+<!-- weather widget start --><a target="_blank" href="http://nochi.com/weather/saint-petersburg-18398"><img src="https://w.bookcdn.com/weather/picture/1_18398_1_20_137AE9_160_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=589&anc_id=34654"  alt="booked.net"/></a><!-- weather widget end -->
+<p id="txt"> </p>
+</div>
+ 
+ <div  id="ctext" >
+  <p>[Данные удалены]</p>
+ <img src="img/7.jpg" width="259" height="194" alt="" />
+   <img src="img/8.jpg" width="259" height="194" alt="" />
+   <img src="img/9.jpg" width="259" height="194" alt="" />
+   <img src="img/10.jpg" width="259" height="194" alt="" />
+</p>
+</div>
+
+
+
+
+
+<div  id="verx" ><a href="#">
+Наверх</a></div>
+<div  id="down" >
+Все ваши вопросы и предложения вы можете отправлять на адрес: <a href="mailto:panasyu.andrej@yandex.ru">panasyu.andrej@yandex.ru</a></div>
+</body>
+</html>
