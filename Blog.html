@@ -58,6 +58,16 @@ link="white" vlink="yellow" alink="red" bgcolor="black">
 
 <div class="blogtext" >
   Hello world!
+  <script>
+    const testFolder = './tests/';
+    const fs = require('fs');
+
+    fs.readdir(testFolder, (err, files) => {
+            files.forEach(file => {
+                console.log(file);
+            });
+        });
+  </script>
 </div>
 </body>
 </html>
